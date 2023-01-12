@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to bottom, #ff4300 0%, #28CDFF 60%, #ED2939 100%);
+    color: black;
+    font-size: 17px;
+}
+#name-User {
+    color: #000000;
+    font-size: 30px;
+    font-family: Arial;
+}
+#intro {
+    color: #FF66D8;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3 {
+    color: crimson;
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+    padding: 3px 3px 3px 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+.gaming {
+    border-style: double;
+    border-color: #171a21;
+    border-width: 10px;
+    background-color: rgb(102, 192, 244);
+    width: 500px;
+    border-radius: 7%;
+    color: #1b2838;
+}
+.music {
+    border-style: dashed;
+    border-color: #191414;
+    border-width: 5px;
+    background-color: rgb(30, 215, 96);
+    width: 400px;
+    border-radius: 10%;
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+#myself {
+    height: 400px;
+    width: 300px;
+    box-shadow: -7px 5px 15px 5px #000000;
+}
+.myButton {
+    color: rgb(255, 255, 255); font-size: 16px;
+    line-height: 16px; 
+    padding: 6px;
+    border-radius: 10px;
+    font-family: Georgia, serif; 
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(255, 67, 0) 0%, rgb(40, 205, 255) 60%, rgb(237, 41, 57) 100%); box-shadow: rgb(0, 0, 0) -7px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
+}
+.myButton:hover {
+    background: #FF4300;
+ }
+.myButton:active {
+    background: #ED2939;
+ }
